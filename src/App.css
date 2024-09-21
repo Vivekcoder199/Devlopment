@@ -1,38 +1,136 @@
 .App {
+
+    font-family: Arial, sans-serif;
+  
+    text-align: center;
+  
+    margin: 30px auto;
+  
+    width: 400px;
+  
+    padding: 20px;
+  
+    border: 1px solid #111a0d;
+  
+    border-radius: 5px;
+  
+  }
+  
+  nav {
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  ul {
+  
+    list-style: none;
+  
+    padding: 0;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+  }
+  
+  li {
+  
+    margin: 0 10px;
+  
+  }
+  
+  input {
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+  }
+  
+  button {
+    color: #5a67d8;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  /* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5a67d8;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #6e6bda;
+}
+login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;              /* White text */
+  text-align: center;         /* Center the text */
+  text-decoration: none;      /* Remove underline */
+  border-radius: 5px;         /* Rounded corners */
+  font-size: 16px;            /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-button:hover {
+  background-color: #6bf772;  /* Darker green on hover */
 }
+registration-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1b241b; /* Green background */
+  color: rgb(115, 30, 30);              /* White text */
+  text-align: center;         /* Center the text */
+  text-decoration: none;      /* Remove underline */
+  border-radius: 5px;         /* Rounded corners */
+  font-size: 16px;            /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.registration-button:hover {
+  background-color: #7df583;  /* Darker green on hover */
+}
+  
